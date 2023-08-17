@@ -1,8 +1,8 @@
 # Safety and Professionalism
 ## 1. Operational Procedures
-type some shit. 
+
 ## 2. Planning and Professionalism
-proper planning prevents piss poor performance
+
 # Operating Systems
 
 ## 3. Operating System Fundamentals
