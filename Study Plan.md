@@ -37,7 +37,7 @@
 |Pico-ITX|3.9x2.8|
 |Mobile-ITX|2.9x1.77|
 
-- ITX originaally named EPIA, used for low-power CPUs  
+- ITX originally named EPIA, used for low-power CPUs  
 - ITX boards are mainly used in embedded systems
 - Motherboard Components
     - RAM  Slots hold RAM sticks or memory sticks
@@ -45,10 +45,10 @@
     - DDR3, DDR4, DDR5 and SODIMM
         - Dual-channel Architecture needs matched pairs of memory. Also come in triple-channel and quad channel.
 - Bus Architecture
-    - Bus refers to pathways that power, data, or control signals usse to travel from one component to another.
+    - Bus refers to pathways that power, data, or control signals use to travel from one component to another.
         - There are many types of busses. Memory Bus, Expansion Bus, etc.
         - Expansion Bus architecture are PCI, PCIe, and Mini PCIe.
-    - PCI = Peripheral Component Interconnect. Transsfers data in parallel over  a 32-bit or 64-bit data bus.
+    - PCI = Peripheral Component Interconnect. Transfers data in parallel over  a 32-bit or 64-bit data bus.
     - PCI  slots  are  3 inches long and are used for almost all expansion boards
     - PCIe = Peripheral Component Interconnect Express. New and improved PCI bus.
     - PCIe is not a true bus that transfers data, but a group of serial channels.
