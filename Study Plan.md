@@ -94,12 +94,126 @@
     - Cables 
         - SATA, IDE, SCSI, and eSATA
 
-
-
 ### **Chapter 10**  
-- 
+- Display adapter controls the output from the PC to the display device.
+- Both the display device as well as the adapter can limit quality output. 
+
+- VGA Video Graphics Array 
+    - Maximum display resolution (640x 480 pixels with 16 colors) VGA. Mode
+    - VGA connector is called DE-15 or HD15 or VGA. Primary interface for CRT monitors. Has 15 pins on 3 rows
+
+- DVI Digital Video Interface
+    - Standard DVI connectors measure. 1 inch by 3/8th inch with a variety of pin configurations.
+    - Digital mode of DVI, DVI-D partially compatible with HDMI. DVI-D is digital only (single and dual link) Dual link doubles the bandwidth in the cable
+    - DVI-A supports only analog signals
+    - DVI-I supports both DVI-D and DVI-A signals as well as digital and analog displays.
+
+- HDMI High-Definition Multimedia Interface
+    - Combines audio and video signals into an uncompressed signal with a bandwidth of 10.2GBps.
+    - Supports Digital rights management (DRM) through High-Bandwidth Digital Content Protection (HDCP)
+    - Can support 4k and 8k as well as HDR formats as well as ethernet communications
+
+- HDMI Connectors
+    - Type A full-size HDMI connector. Most common
+    - Type B dual-link version. Never used.
+    - Type C Mini HDMI, same features as a full-size HDMI
+    - Type D Micro HDMI even smaller than a Mini HDMI. Small mobile devices use this
+    - Type E Automotive connection system for video systems in cars.
+
+- DisplayPort a digital display interface standard developed by VESA.
+    - Supports both video and audio and contains HDCP.
+    - DisplayPort supports high bandwidth (77.37Gbps) and up to 16k resolution at 60Hz.
+    - Also can support multiple monitors high resolution
+
+- Display types
+    - CRT monitors are obsolete, but may still be in the field.
+    - CRT monitor is a large box unit that uses a large cathode ray tube.
+    - CRTs have large capacitors inside. Do not open
+
+- Flat Panel Displays (FPD) very thin, which takes up less desk space
+- LCD Displays
+    - LCD and LED displays are actually types of LCDs. 
+    - LCDs contain one or more cold cathode fluorescent lamps that provide bright light and is energy efficient and long lasting.
+    - LEDs is a grid of tiny light bulbs called light-emitting diodes, positioned behind the glass enclosing the liquid crystals.
+
+- In a color LCD display, the individual molecules of liquid crystal are called subpixels. A see-through film in front of the crystal liquid consists of areas colored red, green, and blue. Each cluster of this trio of colors makes up a physical pixel. Images and colors are created by charging subpixels within the physical pixels.
+
+- The most common technology for an LCD monitor is twisted nematic (TN). This was the first type of LCD panel widely produced. LCD monitors are thin, clear, and inexpensive to produce and support higher refresh rates than IPS
+
+- In-plan switching (IPS) newer technology that improves viewing angles and color reproduction.
+
+- Vertical Alignment panel is a compromise between TN and IPS.
+
+- OLED Organic light-emitting diode does not require backlighting
+There are passive-matrix OLED (PMOLED) displays and active-matrix OLED (AMOLED) displays. A PMOLED display panel relies strictly on the electroluminescent layer to light the screen and does not use a thin-film transistor (TFT) backplane, as does an AMOLED.
+
 ### **Chapter 16**   
-- 
+- Network Cables
+- A wide variety of cables connect your PC to a network
+- Basic cable types
+    - Twisted pair (shielded and unshielded)
+    - Fiber-optic
+    - Coaxial
+- All except Fiber-optic are copper cable
+- A single pair cable is one or more wires surrounded by plastic insulating sheath
+- A twisted pair cable consists of two sheathed metal wires twisted around each other along the entire length of the cable to avoid electrical interference. 
+- A multicore twisted pair cable has multiple pairs of twisted wires. This is still also called twisted-pair
+- Coaxial cable is a single copper wire surrounded by at least one insulated layer, a woven wire shield.
+- Fiber-optic cable has a core of one or more fiber strands surrounded by a protective cladding. Fiber-optic carries light pulses rather than electrical signals, so it is not susceptible to electromagnetic interference (EMI)
+Direct Burial Cable
+- Buried cable underground outdoors from street to residence.
+    - Can be fiber-optic or coaxial
+    - Extra sturdy, crush and water resistant
+Plenum vs. PVC
+- Common network cables use polyvinyl chloride (PVC) outer sheath to protect. The cable.
+- PVC is not fire resistant
+- Plenum cable uses a special fire resistant sheath. 
+    - More expensive
+    - Most offices require it
+Twisted pair cable
+- Most popular cable for internal networks.
+- Pairs of wires twisted around each other
+- The twists help boost wires signals as well as reduce electromagnetic interference (EMI)
+- Most popular is unshielded twisted-pair (UTP), no metal shielding
+    - Many standards for these cables
+        - Cat 5  100Mbps
+        - Cat 5e 1Gbps
+        - Cat 6 10Gbps at up to 165 feet
+        - Cat 6a 10Gbps at up to 328 feet
+        - Cat 7 10Gbps
+        - Cat 8 25Gbps or 40Gbps
+Telecommunication Industry Association/Electronics Industry Alliance (TIA/EIA)
+- TIA/EIA 568 standards for telecommunications cabling
+- Now called ANSI/TIA/EIA-568-B standard
+    - Pin assignments for 8-wire cabling to Ethernet connectors
+    - 1 pin assignment is called T568A
+    - Other is T568B
+    - T568B is recommended but T569A can be used for crossover
+- ANSI/TIA/EIA standard for cat 5e cable maximum length is 100 meters or 328 feet without a switch or hub
+- Twisted pair cable can also come shielded (STP) and is expensive
+- Uses RJ-45 connectors
+Coaxial Cable
+- Used to connect a cable modem to a cable network
+- Central copper wire surrounded by an insulating layer
+- Standard cable for cable television and HD-TV, cable model internet.
+- Usually RG-6.  Cable with 75ohm rating
+- Expect this cable to connect to the cable wall jack and cable modem with f-type coonnectors
+- Splitters are used to split cable tv/internet providers into 2 branches
+Fiber-Optic cable and connectors
+- Commonly used to join separate networks over long distances
+- New homes, businesses and apartments now run both fiber and copper wiring when being built
+- Fiber transmits light rather than electrical signals. No EMI
+- Most expensive, but also faster transmission
+- A single light wave is a mode
+- There are single-mode fiber (SMF) and multimode fiber (MMF) SMF only allows a single light wave to pass down the cable
+    - Ranges in the dozens of miles and speeds in the terabits per second
+- MMF allows multiple light waves to pass simultaneously
+    - MMF cable is larger in diameter
+    - Each light wave uses a portion of fiber
+    - MMF used in LANS speeds up to 1Gbps and a max range of 1000 meters
+- Straight-tip (ST) A straight, round connector used to connect fiber to a network device. It has a twist-type coupling.
+- Subscriber connector (SC) A square snap coupling, about 2.5 mm wide, used for cable-to-cable connections or to connect cables to network devices. It latches with a push-pull action similar to audio and video jacks.
+- Lucent connector (LC) Also called local connector, it has a snap coupling and, at 1.25 mm, is half the size of the SC connector.
 ---
 ## [3.2 Given a Scenario Install the Appropriate RAM](#32---given-a-scenario-install-the-appropriate-ram "Chapters 9, 11")
 ### **Chapter 9**  
@@ -126,12 +240,12 @@
         - Even Parity - the total number of 1s in the byte are even
 - Parity memory modules only are used on systems with parity.
 - Non-parity systems cannot use parity memory modules. Most modern motherboards do not use parity, but some systems use parity like Server Raids.
-- SRAM very fast, very expensive
+- SRAM (Static RAM) very fast, very expensive
     - Usually used for caches.
-- DRAM is slower and needs more power than SRAM, but is more affordable
+- DRAM (Dynamic RAM) is slower and needs more power than SRAM, but is more affordable
     - Is the main memory in a computer
     - Modern DRAM is synchronized with the system clock also know as synchronous DRAM or SDRAM. SDRAM now runs in multiples of the system clock
-- Types of DDR SDRAM
+- Types of DDR SDRAM (Double Data Rate)
     - Dual/Triple and Quad Channel Architecture
         - Dual - system alternates between reading 2 physical separate memory modules
         - Triple - alternates between 3 
@@ -176,7 +290,83 @@
 ---
 ## [3.3 Given a Scenario Select and Install Storage Devices](#33---given-a-scenario-select-and-install-storage-devices "Chapters 9, 11")
 ### **Chapter 9**  
-- 
+- Storage devices and interfaces
+    - Mass storage devices to hold or store large amounts of information.
+    - Mass storage is not volatile and remains unless the user or the compute removes or alters them
+
+- Drive interfaces
+    - Internal drives - Serial ATA (SATA)
+    - External drives - external SATA (eSATA), or USB
+
+    - SATA - connecting internal magnetic drives such as HDD and optical drives. Some SSDs also can connect to SATA. Modern ones connect via M.2
+    - Typical motherboards have at least 4 SATA connectors
+    - SATA cables more thing and compact.
+    - Each SATA device has a direct connection to the SATA controller and does not share a bus with other devices. = Greater throughput. Also supports hot swapping
+
+    - SATA 1.5GBps and SATA 3Gbps exceeded PATA speeds
+    - SATA. 3.0 standard (SATA 6Gbps) good for entry level SSDs
+    - SATA 3.1 support for SSDs in mobile devices or mSATA = Scaled down form factor
+
+    - SATA power port has 15 contacts
+    - Data port has 7 contacts
+
+    - eSATA extension of standard SATA for external SATA devices
+    - Supports 300MBps
+    - Chart on Page 609
+
+- Interfaces for mobile devices
+    - Solid state devices are more common. Interfaces with magnetic storage has proved inadequate. For solid-state storage.
+    - mSATA used to connect to the devices SSATA controller
+
+    - M.2 = flexibility to choose desired bus interface to connect and allow devices to. Be different physical sizes
+
+- NVMe = Non-volatile Memory Express
+    - Interface specification that is designed to take advantage of the speed and parallel access capabilities of solid-state storage.
+    - Replaces AHCI - the logical specification by which SATA host controllers interact with devices.
+
+- Legacy Storage interfaces
+    - PATA and IDE = Parallel Advanced Technology Attachment old way of connecting hard drives to motherboards. 
+    - Integrated Drive Electronics (IDE) and Enhanced IDE (EIDE) are disk drives where the disk and the controlling electronics are inseparable
+
+    - Optical drives that use SSATA are not IDE because you can remove the discs. These are ATAPI or Advanced Technology Attachment Packet Interface drives.
+    - IDE connections are flat ribbon cables
+
+- SCSI Small Computer System Interface(SCUZZY) disk controller for interfacing computers and internal and external peripherals. SATA and USB has replaced SCSI
+    - SCSI parallel interface
+    - 4 different connectors - 50-pin Centronics and 3 D-sub connectors - 25-pin, 50-pin, and 68-pin. Ribbon cables
+    - SCSI + Serial SATA called Serial Attached SCSI (SAS) uses connectors with pin rangers from 26-36. Used in high end systems like servers.
+    - SCSI supports daisy chaining multiple devices on a single controller.
+    - Disadvantage is hat every device in the chain must participate in moving data through the chain.
+    - Each SCSI device has 2 ports - one to receive the cable from the device before it in the chain and one port attaches to the next device.
+    - An internal SCSI device may have only one port. And requite special cable to daisy chain.
+
+- Mass storage devices
+    - 3.5 and 2.5 inch Magnetic hard drives
+    - Seek fast drive speed which is measured by RPM. Available drives come in 5400rpm, 7200rpm, 10000rpm and 15,000rpm.
+
+- Solid-State Storage
+    - SSDs no moving parts and is non-volatile memory.
+    - Lightweight, quiet, and fast devices
+    - Actually a variant of EEPROM (Erasable programable read-only memory)
+    - Data is written in blocks, not bytes
+    - Comes in both external and internal models
+    - SSDs can come to fit into PCIe slots on the motherboard. x4, x8 and x16 slots. 
+
+- RAID arrays
+    - Redundant array of independent (or inexpensive) disks is a group of schemes designed to provide better performance or fault-tolerant protection for data.
+    - Fault tolerance is the ability to survive a failure of a part of a system. When speaking of RAID arrays, fault tolerance is the ability to protect data from a failure.
+    - Raid 1 and Raid 10 = fault tolerance through redundancy
+    - Raid 5 = fault tolerance through algorithm
+
+- Raid 0 uses all physical drives like 1 hard drive. Writes portions of data on each drive called stripes. No fault-tolerant protection
+
+- Raid 1 has fault-tolerance through mirroring. Writes all data simultaneously to 2 drives in a mirrored set. 
+
+- Raid 5 Striping with distributed parity or striping with interleaved parity. 
+Needs at least 3 drives. If one drive fails, the striping provides actual and parity data to reconstruct the data.
+
+- Raid 10 stripe of mirrors. Need at least 4 drives paired into two mirrored sets. Like 2 disks in a Raid 0 array. 
+
 ### **Chapter 11**  
 - 
 ---
@@ -304,6 +494,30 @@
 - 
 ---
 ## [3.5 Given a Scenario Install or Replace the Appropriate Power Supply](#35---given-a-scenario-install-or-replace-the-appropriate-power-supply "Chapter 10")
-### **Chapter   10**  
-- 
+### **Chapter 10**  
+- Power supplies
+    - Power supplies provide power to all components on the motherboard and is internal.
+    - Uses a three prong power socket
+    - Power cables coming out of the power supply supply power to motherboard and internal components
+    - Typical North American outlets provide 115 volts AC at 60hz
+    - Outside the US standard power is 220-240VAC at 50Hz
+    - Power supplies can come dual voltage, some that can automatically switch and those that need to be manually switched.
+- Small voltage like 3.3V, 5V, and 12V can be assumed as DC(VDC). Large voltages can be assumed as AC (VAC).
+- A PC needs a power supply with a capacity that exceeds the total watts required by all the internal components
+
+- A rail, in power supply terms, is a pathway that delivers a specific voltage of power to a specific connection.
+
+- AC Adaptors for Power supplies
+    - AC Adapter converts AC power to the voltage needed for a device. It converts AC power to DC power.
+
+- Power supplies come in different form factors
+    - Most common power supply form factor is referred to as the ATX power supply.
+    - Smaller form factor is known as a micro-ATX power supply
+
+- Most motherboards use 24-pin connectors, called P1 Power connectors
+- Soft power allows the computer to be turned on and off via software. Always consider soft power to be on, even if the computer appears to be off.
+- A power supply that lets you connect cables to it is called a modular power supply.
+- Two traditional peripheral connectors are 4-pin Molex connector, and a smaller 4-pin miniconnector. Molex and mini connector each provide 5 and 12 volts to peripherals
+- Most drives will use a SATA connector from the power supply. Look for a 15-pin SATA power cable for hard drives or optical drives
+
 ---
