@@ -521,3 +521,34 @@ Needs at least 3 drives. If one drive fails, the striping provides actual and pa
 - Most drives will use a SATA connector from the power supply. Look for a 15-pin SATA power cable for hard drives or optical drives
 
 ---
+
+# Week 2
+## [1.1 - Given a scenario, install and configure laptop hardware and components](#11---given-a-scenario-install-and-configure-laptop-hardware-and-components "Chapter 14")
+
+### **Chapter 14**
+
+
+## [1.2 - Compare and contrast the display components of mobile devices](#12---compare-and-contrast-the-display-components-of-mobile-devices "Chapters 10, 14")
+
+### **Chapter 10**
+
+### **Chapter 14**
+
+## [1.3 - Given a scenario, set up and configure accessories and ports of mobile devices](#13---given-a-scenario-set-up-and-configure-accessories-and-ports-of-mobile-devices "Chapters 14, 15")
+
+### **Chapter 14**
+
+### **Chapter 15**
+
+## [1.4 - Given a scenario, configure basic mobile-device network connectivity and application support](#14---given-a-scenario-configure-basic-mobile-device-network-connectivity-and-application-support "Chapter 15")
+
+### **Chapter 15**
+
+## [3.6 - Given a scenario, deploy and configure multifunction devices/ printers and settings](#36---given-a-scenario-deploy-and-configure-multifunction-devices-printers-and-settings "Chapter 13")
+
+### **Chapter 13**
+
+## [3.7 - Given a scenario, install and replace printer consumables](#37---given-a-scenario-install-and-replace-printer-consumables "Chapter 13")
+
+### **Chapter 13**
+
