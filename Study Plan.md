@@ -527,6 +527,87 @@ Needs at least 3 drives. If one drive fails, the striping provides actual and pa
 
 ### **Chapter 14**
 
+- Configuring and Using Laptops
+    - Repairing, upgrading and configuring laptops
+        - A portable computer is any type of computer that can easily transport and that has an all-in-one component layout.
+        - Uses battery power when not plugged into an AC outlet
+        - 2 types of portable computers
+            - Handheld devices
+            - Laptops
+                - Requires small circuit cards that comply with modified versions of the bus standards found in full-size pcs
+                - Variations consist of
+                - Ultra-portable = weight less than 3 lbs. and maximum battery life
+                - Two-in-One laptop/convertible laptop = top display flips and reverses to make the device usable as a tablet
+                - On the other extreme, there are laptops that have full-performance capabilities, larger screens and are heavier
+                - Laptops have the ability to run the same basic OS as their desktop counterparts
+            - Laptop Power and Electrical Input Devices
+                - 2 Forms of power = battery and AC adapter
+                    - Battery - when not plugged into a wall outlet, Laptops use usually lithium-ion batteries that are rechargable
+                    - Previous generations used nickel cadmium (NiCad) batteries
+                    - AC-adapter - like a desktop PC an AC adapter converts AC power to DC power. Make sure to use appropriate AC adapter for correct output wattages.
+            - Wireless. Cards
+                - Wi-Fi is a given technology for laptops since they are designed for portability. Most laptops also support bluetooth, and some even less common wireless standards WiMAX and/or cellular (4G/5G)
+                - For laptops without wireless built in, you can use Mini PCIe or USB add-ons
+            - Mini PCIe
+                - Based on a full-size PCIe expansion bus
+                - 64-bit Interface only smaller
+                - Most common use is for wireless network cards - such as wi-fi or bluetooth.  Cellular wireless cards can also be Mini PCIe
+                - No external access to mini PCIe cards
+            - M.2 
+                - Mainly used for wireless cards and solid state storage
+            - Memory
+                - SODIMM =  Small Outline Dual Inline Memory Module
+                    - About half the size of a DIMM.
+                    - First gen. SODIMMs had 30 pins
+                    - DDR3 SODIMMs have 204 pins
+                    - DDR4 SODIMMs have 260 pins
+                    - DDR5 SODIMMs have 262 pins
+                    - Pay attention to generation (DDR3 vs. DDR4), the speed, and the capacity.
+                    - MicroDIMM is half the size of a SODIMM and allows for higher-density storage
+            - Storage devices
+                - Laptop mass storage moving from HDDs to large-capacity SSDs
+                - SSDs are more popular because they are faster, lighter and less vulnerable to damage
+                - May use mass-storage interface designed for mobile devices called mSATA or mini-SATA.
+                    - SATA 3.1 standard is scaled down version of SATA interface with support for SSDs in mobile devices
+                - HDD/SDD Migration
+                    - Migration refers to moving the contents of a laptops current hard drive to a new one so that the user will not lose their data and applications.
+                    - Use windows system imaging tool to create a system image in an external drive or usb flash drive. Windows image recovery will image the new drive
+            - Display screens and associated components
+                - Laptops have flat panel displays integrated in the lid of the case
+                    - Connected via an integrated video adapter.
+                    - LCD display lit by LEDs.
+                    - Small screen or touch screen laptops/tablets will have OLED or AMOLED screens
+                    - Older LCDs will require an inverter to convert DC to AC for power
+                - Wifi antenna usually is wrapped around the display bezel
+                - Webcams are located on the top of the display when present
+                - Microphones are also usually built into the display
+            - Keyboards
+                - Laptop keyboards will be thinner and not as much vertical travel as traditional keyboards
+                - Keyboards may also have a keyboard backlight for low-light environments
+                - These are replaceable if you can find suitable replacement parts
+                    - Users can also opt to purchase an external keyboard as an inexpensive alternative
+            - Touch Screen/Digitizer
+                - A touch-sensitive input device allowing the user to input data using fingers or a stylus
+                - If a laptop has a touch screen, it has a built in digitizer. 
+                - A touchpad is technically a digitizer
+                - A touch screen’s digitizer hardware is a separate feature from the output component of the screen (that is, the display image). It’s a transparent, built-in overlay on top of the screen.
+            - Multimedia Components
+                - Camera/Webcam
+                    - Typically appears on the top of the display bezel. 
+                    - Webcams can be used for facial recognition, motion detection, and video chatting
+                    - Sometimes the webcam is not separable from the screen.
+                    - USB webcam replacement can be an option
+                - Microphone
+                    - Most laptops will have a built-in microphone
+                        - Used for voice pattern recognition, speech recognition for data input and audio recordings.
+                        - Quality is generally not good, which leads to users using an external microphone
+                - Physical Privacy and Security Components
+                    - Laptops and mobile devices now include hardware and software features that enable users to authenticate themselves based on who they are (biometrics)
+                    - Biometrics hardware scan body features (fingerprints, retinas, facial features)
+                    - Some hardware can have NFC (Near Field Communication) scanners that searches radio frequency ID tags (RFID)
+            - Power Options for Laptops
+                - Power Management is common so that users can conserve battery life
+                - Power management and cooling are key components to power options
 
 ## [1.2 - Compare and contrast the display components of mobile devices](#12---compare-and-contrast-the-display-components-of-mobile-devices "Chapters 10, 14")
 
@@ -534,15 +615,108 @@ Needs at least 3 drives. If one drive fails, the striping provides actual and pa
 
 ### **Chapter 14**
 
+     
 ## [1.3 - Given a scenario, set up and configure accessories and ports of mobile devices](#13---given-a-scenario-set-up-and-configure-accessories-and-ports-of-mobile-devices "Chapters 14, 15")
 
 ### **Chapter 14**
 
+- Laptop Connection Methods
+    - Ports and Technologies for connecting laptops
+        - Connection methods
+            - USB - USB-A connectors and some USB-C (Thunderbolt)
+                - Some smaller mobile devices use Mini or Micro USB connectors
+            - Lightning - Older Apple mobile devices. Most new devices use USB-C
+            - Serial Interfaces - DB-9 Serial Port. Very few laptops have this anymore
+            - Near-field communication (NFC) - creates an ad hoc wireless network on the fly for devices in close proximity to one another
+                - NFC can be used to share files
+            - Wi-Fi - most popular connection type for laptops to access a LAN or the internet. 
+                - Uses (RF) Radio Frequency signals to communicate
+            - Bluetooth - short range wireless networking technology for connections between devices
+                - Used for connecting peripherals such as headphones, printers, wireless keyboards and mice
+            - Hot Spots- a WiFi access point. Most laptops contain adapters that enable you to connect to a hotspot to access internet or other networks.
+    - Port Replicators and Docking Stations
+        - Port replicator is a device that remains on the desktop with external devices connected to its ports. 
+            - Provides a single connection to the laptop and a permanent connection to these devices
+        - Docking station is a more advanced and more expensive alternative to a port replicator
+            - Some docking stations may have full-size expansion slots and various drives.
+        - Universal port replicators and docking stations now interface with laptops via thunderbolt or USB port 
+- Laptop Accessories
+    - Expanding laptop capabilities and versatility with accessories.
+        - Installation usually involves connecting the accessory to the laptop either through wired or wireless port and then running set up software. Some accessories do not need set up to function.
+    - Touch Pen
+        - Sometimes used for touch screens for more precise selection and movement. 
+        - Active touch pens have buttons to issue commands or access special functions
+        - Passive touch pens are basically soft-tipped styluses.
+    - Headset
+        - Combination headphone/microphone set up. Using headsets gives user hands free for typing
+        - Combination input and output. OS can sometimes see it as 2 separate components.
+        - Basic headsets work immediately while advanced headsets may need set up
+    - Speakers
+        - Laptops usually have built in speakers
+        - Extra external speakers can be connected.
+           - USB, 3.5in round jack or even bluetooth connection
+    - Webcam
+        - Most laptops come with a built-in webcam, but you can add one usually via. USB
+    - Trackpad
+        - Most laptops also have a built-in trackpad/touchpad. External trackpads connect usually via USB
+    - Drawing Pad
+        - Same technology as a trackpad, but enables you to use a touchpen or stylus to draw on the pad surface to create artwork on the screen. 
+        - May require special set up to enable all features and may require special drawing application that supports draw pad hardware
+
 ### **Chapter 15**
+
+- Configuring and using Mobile Device Connections
+    - Connecting to Wireless Networks
+        - Mobile devices use network adapters for cellular data networks, Wi-Fi networks or both. As well as bluetooth connections for connecting to nearby devices
+    - Connecting to Cellular Networks
+        - Cellular networks require a subscription with a contract
+        - Depending on the subscription, the network gives you a certain level of service to connect to connect
+    - Connecting to Wi-Fi Networks
+        - Open settings app and select Wi-Fi.
+        - Select your network (displayed by SSID) and enter in the password. 
+    - Creating a mobile hotspot (Tethering)
+        - Using a cellular network connection to access the internet
+        - This uses up your cell plans data allotment
+    - Connecting to Bluetooth Devices
+        - Wireless standard used for communicating over very short distances
+        - Bluetooth consumes battery power
+        - A connection between 2 bluetooth devices is called a pairing
 
 ## [1.4 - Given a scenario, configure basic mobile-device network connectivity and application support](#14---given-a-scenario-configure-basic-mobile-device-network-connectivity-and-application-support "Chapter 15")
 
 ### **Chapter 15**
+
+- E-mail Configuration
+    - Web-Based E-mail Accounts
+        - Recognized email accounts do not need to specify a sending and receiving server. All you need is a username and password. (Microsoft365, Yahoo, Gmail, Outlook, iCloud)
+    - POP3 and IMAP Accounts
+        - To receive mail, you will need an address for either a Post Office Protocol 3 (POP3) server or Internet Message Access Protocol (IMAP) server
+        - To send mail, you need the address to your Simple Mail Transfer Protocol (SMTP). This accepts your outgoing mail and forwards it to an email server.
+        - POP3 server looks like pop.domainname.com.
+        - IMAP server looks like map.domainname.com
+        - SMTP server smtp.domainname.com
+- OS updates
+    - OS updates can correct system problems, add more features, enhance security, and in some cases even change the user interface.
+    - OS updates are stored in read-only memory and updates are flashed to it
+    - Smartphone updates will alert via message.
+- Synchronization
+    - Certain data can be synchronized between multiple computing devices. 
+    - Files are examined and newer files replace the older files, sometimes in both directions.
+    - Syncing data can also be a backup in case a device is lost or stolen
+    - Syncing data like
+        - Mail
+        - Photos
+        - Calendar
+        - Contacts
+    - You can synchronize to another device, such as another PC or to a cloud service such as iCloud.
+    - Synchronization can happen through a cable or wirelessly via Wi-Fi.
+    - Cloud-based syncing happens through the internet, whether through Wi-Fi or Cellular connection
+- Connecting Mobile Devices for Syncing
+    - Syncing can happen with your mobile devices and your computer either locally via USB cable, or over the internet using cloud-based service.
+- Syncing iPhones and iPads
+    - iTunes is used for the synchronization utility for apple devices
+- Syncing Android Devices
+    - Android Devices are treated like an external drive.
 
 ## [3.6 - Given a scenario, deploy and configure multifunction devices/ printers and settings](#36---given-a-scenario-deploy-and-configure-multifunction-devices-printers-and-settings "Chapter 13")
 
